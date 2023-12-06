@@ -1,4 +1,7 @@
 bootstrap-5.0.2-dist/
+# media/
+
+
 # Ignore temporary files
 *.tmp
 .DS_Store

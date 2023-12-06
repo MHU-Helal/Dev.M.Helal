@@ -1,0 +1,23 @@
+@keyframes rotatingRight {
+    0% {
+        rotate: 0deg;
+    }
+
+    50%{
+        border-radius: 50%;
+    }
+
+    100% {
+        rotate: 360deg;
+    }
+}
+
+@keyframes rotatingLeft {
+    0% {
+        rotate: 0deg;
+    }
+
+    100% {
+        rotate: -360deg;
+    }
+}
