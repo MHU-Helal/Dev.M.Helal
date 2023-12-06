@@ -33,19 +33,22 @@ header .container{
 }
 
 .logo{
-    width: 10%;
+    width: 20%;
     height: 100%;
     position: relative;
-    border-right: 2px solid gray;
+    /* border-right: 2px solid gray; */
     /* background-color: rgb(216, 200, 200); */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.logo:hover{
+    box-shadow: 0px 0px 10px gray;
+    transition-duration: 0.5s;
+}
+
 .box1 {
-    overflow: hidden;
-    position: absolute;
     width: 50px;
     height: 50px;
     border: 5px solid var(--fontColor);
@@ -60,12 +63,17 @@ header .container{
 }
 
 .navbar{
-    width: 70%;
+    width: 60%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     /* background-color: rgb(226, 226, 226); */
+}
+
+.navbar:hover{
+    box-shadow: 0px 0px 10px gray;
+    transition-duration: 0.5s;
 }
 
 .userProfile{
@@ -76,6 +84,11 @@ header .container{
     justify-content: center;
     align-items: center;
     /* background-color: rgb(255, 255, 255); */
+}
+
+.userProfile:hover{
+    box-shadow: 0px 0px 10px gray;
+    transition-duration: 0.5s;
 }
 
 .userProfile img{
@@ -99,6 +112,10 @@ header .container{
     text-decoration: none;
 }
 
+a:active{
+    color: gray;
+}
+
 .menu ul{
     display: flex;
     justify-content: center;
@@ -116,5 +133,42 @@ header .container{
     /* font-size: 2rem; */
     font-weight: bolder;
     border-bottom: 5px solid var(--fontColor);
+    transition-duration: 0.3s;
+}
+
+/* Main Body Styling */
+.introduction{
+    width: 100vw;
+    height: calc(100vh - 90px);
+    /* background-color: #fff; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    /* gap: 5px; */
+    /* box-shadow: 0px 5px 20px gray; */
+    /* background-color:gray; */
+}
+
+.leftBox, .rightBox{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #616161; */
+}
+
+.leftBox img{
+    width: 50%;
+    height: calc(width);
+    border: 5px groove goldenrod;
+    border-radius: 50%;
 }
 
