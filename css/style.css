@@ -180,10 +180,6 @@ a:active{
     /* overflow: hidden; */
 }
 
-body{
-    background-color: #fcf6f2;
-    overflow-y: hidden;
-}
 
 /* Header Section */
 
@@ -308,20 +304,15 @@ header{
 }
 
 .userImage{
-    width: 400px;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
     opacity: 0.5;
 }
 
 .container1:hover .userImage{
     opacity: 1;
     transition-duration: 0.5s;
-}
-
-.userProfileImage{
-    width: 350px;
-    height: 350px;
-    border-radius: 50%;
-    overflow: hidden;
 }
 
 .profileDetails{
@@ -834,3 +825,18 @@ footer{
 }
 
 
+/* 404 Error Page Code */
+
+.errorPageTitle {
+    /* position: absolute; */
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    padding-top: 40vh;  
+}
+
+/* page heading temporary */
+.center{
+    text-align: center;
+    padding: 35vh;
+}
