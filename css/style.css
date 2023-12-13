@@ -97,7 +97,7 @@ header .container{
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    border: 5px solid gray;
+    border: 5px solid var(--fontColor);
 }
 
 .userProfile img:hover{
@@ -112,10 +112,6 @@ header .container{
     text-decoration: none;
 }
 
-a:active{
-    color: gray;
-}
-
 .menu ul{
     display: flex;
     justify-content: center;
@@ -125,15 +121,15 @@ a:active{
 
 .menu ul li{
     /* border: 5px transparent; */
-    padding: 10px 20px;
+    padding: 10px;
     list-style: none;
 }
 
-.menu ul li:hover{
+.menu ul li:hover a{
     /* font-size: 2rem; */
     font-weight: bolder;
     border-bottom: 5px solid var(--fontColor);
-    transition-duration: 0.3s;
+    transition-duration: 0.5s;
 }
 
 /* Main Body Styling */
@@ -193,14 +189,6 @@ header{
     height: 60px;
     display: flex;
     background-color: #fff7ef;
-}
-
-.logo{
-    width: 40%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .menuList{
