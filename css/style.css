@@ -645,6 +645,7 @@ header{
 
 .c4Card img{
     height: 350px;
+    height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -656,6 +657,11 @@ header{
     opacity: 0.8;
     border-radius: 20px;
     overflow: hidden;
+}
+
+.c4Card iframe{
+    width: 350px;
+    height: 350px;
 }
 
 .c4Card:hover img{
